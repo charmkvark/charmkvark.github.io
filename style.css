@@ -1,6 +1,7 @@
-   body {
+   * {
      margin: 0;
      padding: 0;
+     box-sizing: border-box;
    }
 
    @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
@@ -10,23 +11,18 @@
   --neon-text-color: #55d6aa;
 }
 
-   /* Start Navigation Area */
+   /* Start Navbar Area */
 
    header {
     background: #55d6aa;
     z-index: 100000;
+    position: sticky;
+    top: 0;
    }
 
    .logo {
     position: relative;
 }
-
-   .sticky {
-    position: fixed;
-    width: 100%;
-    padding: 5px 100px;
-    background:#55d6aa;
-  }
 
    header::after {
        content: '';
@@ -34,31 +30,32 @@
        clear: both;
    }
 
-   .navbar ul {
+   #nav ul {
        margin: 0;
        padding: 0;
        list-style: none;
    }
 
-   .navbar li {
+   #nav li {
        display: inline-block;
        margin-left: 70px;
        padding-top: 25px;
-       padding-bottom: 25px;
+       padding-bottom: 10px;
        position: relative;
    }
 
-   .navbar a {
+   #nav a {
        color: #444;
        text-decoration: none;
        text-transform: uppercase;
+       font-size: 17px;
    }
 
-   .navbar a:hover {
+   #nav a:hover {
         color: #000;
     }
 
-    .navbar a::before {
+    #nav a::before {
         content: '';
         display: block;
         height: 5px;
@@ -70,7 +67,7 @@
         transition: all ease-in-out 200ms;
     }
 
-    .navbar a:hover::before {
+    #nav a:hover::before {
         width: 100%;
 
     }
@@ -85,7 +82,9 @@
    /* Start Banner Area */
 
    .banner {
+       position: relative;
        background: #222222;
+       background-size: cover;
        height: 100vh;
    }
 
@@ -112,6 +111,30 @@
   .banner h4:focus {
     outline: none;
   }
+
+  .banner h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    font-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flicker 10000000000s infinite alternate;     
+  }
+  
+  .banner h1::-moz-selection {
+    background-color: var(--neon-border-color);
+    color: var(--neon-text-color);
+  }
+  
+  .banner h1::selection {
+    background-color: var(--neon-border-color);
+    color: var(--neon-text-color);
+  }
+  
+  .banner h1:focus {
+    outline: none;
+  }
+  
   
   /* Animate neon flicker */
   @keyframes flicker {
@@ -141,7 +164,7 @@
           box-shadow: none;
       }    
   }
-
+  
    /* End Banner Area */
 
    /* Start Section1 Area */
@@ -158,7 +181,6 @@
 
    .container1 .text {
        color: #222222;
-       column-span: none;
        padding-top: 100px;
        font-size: 20px;
    }
@@ -180,6 +202,7 @@
 
 .container2 .text .mastermind{
     color: #222222;
+    padding-top: 25px;
     font-size: 30px;
 }
 
@@ -201,6 +224,10 @@
     color: #000000;
 }
 
+.container2 .kth {
+    padding-top: 100px;
+}
+
    /* End Section2 Area */
 
    /* Start Footer Area */
@@ -210,14 +237,14 @@
        background: #222222;
    }
 
-   .footer .kth {
-    padding-top: 100px;
+   .footer .monster {
+    padding-top: 90px;
     background-size: 100px;
     background: no-repeat;
 }
 
 .footer .copyright {
-    padding-top: 30px;
+    padding-top: 45px;
     color: rgb(185, 185, 185);
     font-size: 15px;
 }
