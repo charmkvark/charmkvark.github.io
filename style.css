@@ -15,14 +15,16 @@
 
    header {
     background: #55d6aa;
+    z-index: 100000;
    }
-   /*
+
    .sticky {
     position: fixed;
     width: 100%;
-    background: #55d6aa;
+    padding: 5px 100px;
+    background:#55d6aa;
   }
-*/
+
    header::after {
        content: '';
        display: table;
