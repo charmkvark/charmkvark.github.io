@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
 
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap file via jsDelivr -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+</head>
+<body>
+
+     <!-- ========================= Start Header Area ========================= -->
+
+    <header>
+
+        <div class="container" id="myHeader">
+
+            <nav>
+                <ul>
+                    <li><a href="#">Start</a></li>
+                    <li><a href="#Information">Information</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    
+    <!-- ========================= End Header Area ========================= -->
+
+    <!-- ========================= Start Banner Area ========================= -->
+
+    <div class="banner text-center">
+        <h4>Game name</h4>
+    </div>
+
+    <!-- ========================= End Banner Area ========================= -->
+
+    <!-- ========================= Start Section Area ========================= -->
+
+    <div class="container1">
+
+        <div class="section1 text-center ">
+            <a name="Information">
+                <h1>Information about the game</h1>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div class="text text-center">
+                    <p>[Game name] consists of smaller mini games where you play it and compete against your oppenent. The game is played on the same machine and keyboard.
+                        <br><br>
+                            Each mini game won will move you one step closer to the opponents home base - your target. When you reach the target, you win.
+                            The first minigame is a fighting game, the second is a fps and in the last game, you will have to avoid walls to survive.</p>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+
+        </div>
+        
+    </div>
+
+    <div class="container2">
+    
+        <div class="section2 text-center">
+            <a name="Contact">
+                <h1>Contact information</h1>
+            </a>
+        </div>
+        <div class="row">
+
+            <div class="col-sm-3"></div>
+
+            <div class="col-md-12">
+                <div class="text text-center">
+                    <br><br>
+                    <p class="mastermind">Masterminds behind this project:</p>
+                        <p>
+                            Albin Jonsson, Bength Roland Pappila, Elliot Maximilian Martin, Lukas Pöldman, Olle Gunnemyr and Shadab Ahmed. <br><br>
+                        </p>
+                    <p class="contact">Get in touch with us:</p>
+                        <p>
+                            <a class="mail" href="mailto: charmkvarkII1305@gmail.com">charmkvarkII1305@gmail.com</a>
+                        </p>
+                    
+                </div>
+            </div>
+
+            <div class="col-sm-3"></div>
+
+        </div>
+
+    </div>
+    
+    <!-- ========================= End Section Area ========================= -->
+    
+
+    <footer>
+        <div class="footer">
+            <div class="kth text-center">
+                <a href="https://www.kth.se"><img src="./img/kth.png" alt="logo" width="200px"></a>
+            </div>
+            <div class="copyright text-center">
+                <p class="copyright">Copyright © 2021 Charmkvark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        // Get the header
+        var header = document.getElementById("myHeader");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+        }
+    </script>
+    
+</body>
+
+</html>
