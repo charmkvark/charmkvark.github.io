@@ -185,6 +185,13 @@
        font-size: 20px;
    }
 
+   .container1 .mini-game .mini-game {
+       text-transform: uppercase;
+       padding-top: 12px;
+       font-size: 18px;
+       font-weight: bold;
+   }
+
    /* End Section1 Area */
 
    /* Start Section2 Area */
