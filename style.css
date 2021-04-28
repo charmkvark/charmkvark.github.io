@@ -93,7 +93,7 @@
     font-weight: 200;
     font-style: none;
     color: #fff;
-    padding: 18rem 6rem 5.5rem;
+    padding: 12rem 6rem 5.5rem;
     text-transform: uppercase;
     animation: flicker 2s infinite alternate;     
   }
@@ -112,8 +112,18 @@
     outline: none;
   }
 
-  .banner h1 {
+  .banner h2 {
     font-size: 4rem;
+    font-weight: 200;
+    font-family: cursive;
+    font-style: italic;
+    color: #fff;
+    animation: flicker 10000000000s infinite alternate;    
+    padding-bottom: 60px; 
+  }
+
+  .banner h1 {
+    font-size: 5rem;
     font-weight: 200;
     font-style: none;
     color: #fff;
@@ -193,6 +203,66 @@
    }
 
    /* End Section1 Area */
+
+   /* Start Section2 Area */
+
+   .container3 {
+    height: 200vh;
+    background: rgb(59, 59, 59);
+    }
+
+    .section3 h1 {
+    color: #222222;
+    font-size: 75px;
+    padding-top: 250px;
+}
+
+.row {
+    display: flex;
+}
+
+.column-left,
+.columnt-right {
+    flex: 50%;
+}
+
+.container3 .game1 .column-left h1 {
+    color: rgb(214, 214, 214);
+    margin-left: 250px;
+    margin-bottom: 80px;
+}
+
+.container3 .game1 .column-left p {
+    color: rgb(214, 214, 214);
+    margin-left: 250px;
+    line-height: 40px;
+}
+
+.container3 .game1 .column-right h1 {
+    color: rgb(214, 214, 214);
+    margin-top: 250px;
+    margin-left: 120px;
+}
+
+.container3 .game2 .column-right h1 {
+    color: rgb(214, 214, 214);
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.container3 .game2 .column-right p {
+    color: rgb(214, 214, 214);
+    margin-left: 100px;
+    line-height: 40px;
+}
+
+.container3 .game2 .column-left h1 {
+    color: rgb(214, 214, 214);
+    margin-top: 250px;
+    margin-left: 120px;
+}
+
+   /* End Section2 Area */
 
    /* Start Section2 Area */
 
