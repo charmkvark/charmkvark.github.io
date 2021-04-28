@@ -341,6 +341,57 @@
     padding-top: 100px;
 }
 
+.container4 {
+    height: 100vh;
+    background: black;
+}
+
+.container4 .download-title h1 {
+    color: rgb(214, 214, 214);
+    font-size: 75px;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.container4 .download-text p {
+    color: rgb(214, 214, 214);
+    font-size: 20px;
+    padding-top: 50px;
+    margin-bottom: -170px;
+}
+
+.container4 .btns a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+  }
+  
+  .container4 .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: row;  
+  }
+
+  .container4 .green-btn {
+    color: #55d6aa;
+    border: 1.5px solid #55d6aa;
+    border-radius: 7px;  
+  }
+
+  .container4 .green-btn:hover {
+    background-color: #55d6aa;
+    color: #050801;
+    box-shadow: 0px 0px 5px #55d6aa, 0px 0px 25px #55d6aa, 0px 0px 50px #55d6aa, 0px 0px 100px #55d6aa;
+  }
+
    /* End Section2 Area */
 
    /* Start Footer Area */
