@@ -330,7 +330,7 @@
 }
 
 .container2 .mail {
-    color: #55d6aa;
+    color: #40b6d3;
 }
 
 .container2 .mail:hover {
@@ -381,15 +381,15 @@
   }
 
   .container4 .green-btn {
-    color: #55d6aa;
-    border: 1.5px solid #55d6aa;
+    color: #40b6d3;
+    border: 1.5px solid #40b6d3;
     border-radius: 7px;  
   }
 
   .container4 .green-btn:hover {
-    background-color: #55d6aa;
-    color: #050801;
-    box-shadow: 0px 0px 5px #55d6aa, 0px 0px 25px #55d6aa, 0px 0px 50px #55d6aa, 0px 0px 100px #55d6aa;
+    background-color: #40b6d3;
+    color: #40b6d3;
+    box-shadow: 0px 0px 5px #40b6d3, 0px 0px 25px #40b6d3, 0px 0px 50px #40b6d3, 0px 0px 100px #40b6d3;
   }
 
    /* End Section3 Area */
