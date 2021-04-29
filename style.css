@@ -8,13 +8,13 @@
 
 :root {
   /* Set neon color */
-  --neon-text-color: #55d6aa;
+  --neon-text-color: #40b6d3;
 }
 
    /* Start Navbar Area */
 
    header {
-    background: #55d6aa;
+    background: #40b6d3;
     z-index: 100000;
     position: sticky;
     top: 0;
