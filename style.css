@@ -4,6 +4,10 @@
      box-sizing: border-box;
    }
 
+   body {
+       width: auto;
+   }
+
    @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
 :root {
@@ -85,7 +89,8 @@
        position: relative;
        background: #222222;
        background-size: cover;
-       height: 110vh;
+       height: 100%;
+       padding-bottom: 150px;
    }
 
    .banner h4 {
@@ -180,7 +185,8 @@
    /* Start Section1 Area */
 
    .container1 {
-       height: 125vh;
+       height: 100%;
+       padding-bottom: 150px;
    }
 
    .section1 h1 {
@@ -208,7 +214,7 @@
    /* Start Section2 Area */
 
    .container3 {
-    height: 325vh;
+    height: 100%;
     background: #222222;
     }
 
@@ -229,21 +235,20 @@
 
 .container3 .game1 .column-left h1 {
     color: rgb(214, 214, 214);
-    margin-left: 250px;
-    margin-bottom: 80px;
-    margin-top: -100px;
+    padding-left: 250px;
+    padding-bottom: 80px;
 }
 
 .container3 .game1 .column-left p {
     color: rgb(214, 214, 214);
-    margin-left: 250px;
+    padding-left: 250px;
     line-height: 40px;
 }
 
 .container3 .game1 .column-right h1 {
     color: rgb(214, 214, 214);
-    margin-top: 200px;
-    margin-left: 120px;
+    padding-top: 500px;
+    padding-left: 120px;
 }
 
 .divider {
@@ -262,55 +267,108 @@
 
 .container3 .game2 .column-right h1 {
     color: rgb(214, 214, 214);
-    margin-left: 100px;
-    margin-bottom: 80px;
-    margin-top: -100px;
+    padding-left: 100px;
 }
 
 .container3 .game2 .column-right p {
     color: rgb(214, 214, 214);
-    margin-left: 100px;
+    padding-left: 100px;
     line-height: 40px;
 }
 
 .container3 .game2 .column-left h1 {
     color: rgb(214, 214, 214);
-    margin-top: 200px;
-    margin-left: 250px;
+    padding-top: 500px;
+    padding-left: 250px;
+}
+
+.container3 .game3 {
+    padding-bottom: 150px;
 }
 
 .container3 .game3 .column-left h1 {
     color: rgb(214, 214, 214);
-    margin-left: 250px;
-    margin-bottom: 80px;
-    margin-top: -100px;
+    padding-left: 250px;
+    padding-bottom: 80px;
+    padding-top: -100px;
 }
 
 .container3 .game3 .column-left p {
     color: rgb(214, 214, 214);
-    margin-left: 250px;
+    padding-left: 250px;
     line-height: 40px;
 }
 
 .container3 .game3 .column-right h1 {
     color: rgb(214, 214, 214);
-    margin-top: 200px;
-    margin-left: 120px;
+    padding-top: 500px;
+    padding-left: 120px;
 }
 
    /* End Section2 Area */
 
+   .container4 {
+    height: 100%;
+    background: black;
+}
+
+.container4 .download-title h1 {
+    color: rgb(214, 214, 214);
+    font-size: 75px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.container4 .download-text p {
+    color: rgb(214, 214, 214);
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.container4 .btns a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+  }
+  
+  .container4 .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: row;  
+    padding-bottom: 150px;
+  }
+
+  .container4 .green-btn {
+    color: #40b6d3;
+    border: 1.5px solid #40b6d3;
+    border-radius: 7px;  
+  }
+
+  .container4 .green-btn:hover {
+    background-color: #40b6d3;
+    color: #050801;
+    box-shadow: 0px 0px 5px #40b6d3, 0px 0px 25px #40b6d3, 0px 0px 50px #40b6d3, 0px 0px 100px #40b6d3;
+  }
+
    /* Start Section3 Area */
 
    .container2 {
-       height: 125vh;
+       height: 100%;
        background: #ececec;
    }
 
    .section2 h1 {
     color: #222222;
     font-size: 75px;
-    padding-top: 250px;
+    padding-top: 150px;
 }
 
 .container2 .text .mastermind{
@@ -339,65 +397,15 @@
 
 .container2 .kth {
     padding-top: 100px;
+    padding-bottom: 150px;
 }
-
-.container4 {
-    height: 110vh;
-    background: black;
-}
-
-.container4 .download-title h1 {
-    color: rgb(214, 214, 214);
-    font-size: 75px;
-    padding-top: 250px;
-    text-align: center;
-}
-
-.container4 .download-text p {
-    color: rgb(214, 214, 214);
-    font-size: 20px;
-    padding-top: 50px;
-    margin-bottom: -170px;
-}
-
-.container4 .btns a {
-    position: relative;
-    display: inline-block;
-    padding: 25px 30px;
-    margin: 40px;
-    font-size: 24px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    transition: 0.5s;
-  }
-  
-  .container4 .btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
-    flex-direction: row;  
-  }
-
-  .container4 .green-btn {
-    color: #40b6d3;
-    border: 1.5px solid #40b6d3;
-    border-radius: 7px;  
-  }
-
-  .container4 .green-btn:hover {
-    background-color: #40b6d3;
-    color: #050801;
-    box-shadow: 0px 0px 5px #40b6d3, 0px 0px 25px #40b6d3, 0px 0px 50px #40b6d3, 0px 0px 100px #40b6d3;
-  }
 
    /* End Section3 Area */
 
    /* Start Footer Area */
 
    .footer {
-       height: 60vh;
+       height: 100%;
        background: #222222;
    }
 
@@ -408,7 +416,8 @@
 }
 
 .footer .copyright {
-    padding-top: 45px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     color: rgb(185, 185, 185);
     font-size: 15px;
 }
