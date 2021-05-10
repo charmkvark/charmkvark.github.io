@@ -386,10 +386,19 @@
     line-height: 40px;
 }
 
-.container3 .game1 .column-right h1 {
-    color: rgb(214, 214, 214);
-    padding-top: 500px;
+.container3 .game1 .column-right img {
+    padding-top: 370px;
     padding-left: 120px;
+}
+
+.container3 .game2 .column-left img {
+    padding-top: 380px;
+    padding-left: 200px;
+}
+
+.container3 .game3 .column-right-skiing img {
+    padding-top: 380px;
+    padding-left: 100px;
 }
 
 .divider {
