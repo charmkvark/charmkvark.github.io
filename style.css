@@ -15,6 +15,103 @@
   --neon-text-color: #40b6d3;
 }
 
+:root {
+    --modifier: 2.5;
+  }
+  
+  @keyframes snow {
+      0% {
+          top: 0;
+          opacity:1;
+      }
+      100% {
+          top: 80%;
+          opacity:0;
+      }
+    
+  } 
+  
+  .snowflake {
+      position: absolute;
+      font-size: 40px;
+      color: white;
+      animation: snow 5s linear infinite;
+  /*   animation-fill-mode: forwards; */
+  }
+  .snowflake1{
+    left: 13%;
+    animation: snow calc(var(--modifier) * 0.7s) linear infinite;
+  }
+  .snowflake2{
+    left:26%;
+    animation: snow calc(var(--modifier) * 1.1s) linear infinite;
+  }
+  
+  .snowflake3{
+    left:39%;
+    animation: snow calc(var(--modifier) * 1.8s) linear infinite;
+  }
+  .snowflake4{
+    left:52%;
+    animation: snow calc(var(--modifier) * 2s) linear infinite;
+  }
+  
+  .snowflake5{
+    left:65%;
+    animation: snow calc(var(--modifier) * 1.3s) linear infinite;
+  }
+  
+  .snowflake6{
+    left:78%;
+    animation: snow calc(var(--modifier) * 1.45s) linear infinite;
+  }
+  
+  .snowflake7{
+    left:91%;
+    animation: snow calc(var(--modifier) * 0.9s) linear infinite;
+  }
+  
+  .snowflake8{
+    left:5%;
+    animation: snow calc(var(--modifier) * 0.6s) linear infinite;
+  }
+  
+  .snowflake9{
+    left:18%;
+    animation: snow calc(var(--modifier) * 0.85s) linear infinite;
+  }
+  
+  .snowflake10{
+    left:31%;
+    animation: snow calc(var(--modifier) * 1.4s) linear infinite;
+  }
+  
+  .snowflake11{
+    left:44%;
+    animation: snow calc(var(--modifier) * 0.65s) linear infinite;
+  }
+  
+  .snowflake12{
+    left:57%;
+    animation: snow calc(var(--modifier) * 0.8s) linear infinite;
+  }
+  
+  .snowflake13{
+    left:70%;
+    animation: snow calc(var(--modifier) * 0.75s) linear infinite;
+  }
+  
+  .snowflake14{
+    left:83%;
+    animation: snow calc(var(--modifier) * 1.2s) linear infinite;
+  }
+  
+  .sliderLabel, #showValue {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+
    /* Start Navbar Area */
 
    header {
@@ -94,6 +191,17 @@
        padding-bottom: 150px;
    }
 
+   .banner-confirmation-page {
+    background: #222222;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 150px;
+}
+
+.banner-confirmation-page h1 {
+    font-size: 2000px;
+}
+
    .banner h4 {
     font-size: 13rem;
     font-weight: 200;
@@ -136,18 +244,50 @@
     text-transform: uppercase;
     animation: flicker 10000000000s infinite alternate;     
   }
-  
-  .banner h1::-moz-selection {
+
+  .banner-confirmation-page h1 {
+    font-size: 150px;
+    font-weight: 200;
+    font-style: none;
+    color: #fff;
+    padding-top: 250px;
+    text-transform: uppercase;
+    animation: flicker 10000000000s infinite alternate;     
+  }
+
+  .banner-confirmation-page p {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: none;
+    color: #40b6d3;
+    padding-top: 100px;
+    text-transform: uppercase;  
+  }
+
+  .banner-confirmation-page a {
+    text-transform: uppercase;
+    text-decoration: none;  
+  }
+
+  .banner-confirmation-page .link:hover {
+    color: white;
+    transition: .4s ease;
+  }
+
+  .banner h1::-moz-selection,
+  .banner-confirmation-page h1::-moz-selection {
     background-color: var(--neon-border-color);
     color: var(--neon-text-color);
   }
   
-  .banner h1::selection {
+  .banner h1::selection,
+  .banner-confirmation-page h1::selection {
     background-color: var(--neon-border-color);
     color: var(--neon-text-color);
   }
   
-  .banner h1:focus {
+  .banner h1:focus,
+  .banner-confirmation-page h1:focus {
     outline: none;
   }
   
@@ -361,26 +501,33 @@
 
    /* Start Section3 Area */
 
-   .container2 {
-       height: 100%;
-       background: #ececec;
-   }
-
-   .section2 h1 {
-    color: #222222;
-    font-size: 75px;
-    padding-top: 150px;
+.container2 {
+    height: 100%;
+    background: #ececec;
 }
 
-.container2 .text .mastermind{
+.section2 h1 {
+color: #222222;
+font-size: 75px;
+padding-top: 150px;
+}
+
+.container2 .text .mastermind {
     color: #222222;
     padding-top: 25px;
     font-size: 30px;
 }
 
-    .container2 .text {
-        color: #222222;
-    font-size: 20px;
+.container2 .text .mastermind-text {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 .para p {
+    color: #222222;
+    font-size: 15px;
+    margin-top: 200px;
+    text-align: center;
 }
 
 .container2 .text .contact{
@@ -388,17 +535,40 @@
     font-size: 30px;
 }
 
-.container2 .mail {
+.container2 .contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 .form-control {
+    width: 600px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    border-radius: 0;
+    background: transparent;
+    outline: none;
     color: #40b6d3;
+    font-size: 15px;
 }
 
-.container2 .mail:hover {
-    color: #000000;
+.container2 .submit {
+    padding: 1rem 3rem;
+    font: var(--roboto);
+    font-size: 12px;
+    letter-spacing: 0.2125rem;
+    position: relative;
+    border: none;
+    background: #40b6d3;
+    background-clip: padding-box;
+    color: rgba(0, 0, 0, 0.774);
+    transition: background .6s ease;
+    text-transform: uppercase;
 }
 
-.container2 .kth {
-    padding-top: 100px;
-    padding-bottom: 150px;
+.container2 .submit:hover {
+    background: var(206, 182, 116, 0.774);
+    color:  rgba(255, 255, 255, 0.774);
+    box-shadow: 0 0 15px rgba(33,33,33,.2); 
 }
 
    /* End Section3 Area */
