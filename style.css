@@ -377,7 +377,7 @@
 .container3 .game1 .column-left h1 {
     color: rgb(214, 214, 214);
     padding-left: 250px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
 
 .container3 .game1 .column-left p {
@@ -409,6 +409,7 @@
 .container3 .game2 .column-right h1 {
     color: rgb(214, 214, 214);
     padding-left: 100px;
+    padding-bottom: 20px;
 }
 
 .container3 .game2 .column-right p {
@@ -430,7 +431,7 @@
 .container3 .game3 .column-left h1 {
     color: rgb(214, 214, 214);
     padding-left: 250px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     padding-top: -100px;
 }
 
