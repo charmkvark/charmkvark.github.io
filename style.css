@@ -140,7 +140,7 @@
 
    #nav li {
        display: inline-block;
-       margin-left: 70px;
+       margin-left: 40px;
        padding-top: 25px;
        padding-bottom: 10px;
        position: relative;
@@ -501,9 +501,32 @@
 
    /* Start Section3 Area */
 
+.container5 {
+height: 100%;
+background: #ececec;
+}
+
+.container5 h1 {
+    color: #222222;
+    font-size: 75px;
+    padding-top: 150px;
+}
+
+.container5 .mastermind {
+    padding-bottom: 40px;
+}
+
+.container5 .mastermind-credits p {
+    color: #494949;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
 .container2 {
     height: 100%;
-    background: #ececec;
+    background: white;
 }
 
 .section2 h1 {
@@ -512,13 +535,13 @@ font-size: 75px;
 padding-top: 150px;
 }
 
-.container2 .text .mastermind {
+.text .mastermind {
     color: #222222;
     padding-top: 25px;
     font-size: 30px;
 }
 
-.container2 .text .mastermind-text {
+.text .mastermind-text {
     display: flex;
     justify-content: center;
 }
@@ -584,6 +607,13 @@ padding-top: 150px;
     padding-top: 90px;
     background-size: 100px;
     background: no-repeat;
+}
+
+.footer .love {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgb(185, 185, 185);
+    font-size: 20px;
 }
 
 .footer .copyright {

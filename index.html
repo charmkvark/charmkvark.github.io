@@ -39,6 +39,7 @@
                 <li><a href="#Information">Information</a></li>
                 <li><a href="#Gameplay">Gameplay</a></li>
                 <li><a href="#Download">Download</a></li>
+                <li><a href="#Team">Team</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
@@ -189,6 +190,39 @@
         </div>
     </div>
 
+    <div class="container5">
+    
+        <div class="section2 text-center">
+            <a name="Team">
+                <h1>We are Team Charmkvark</h1>
+            </a>
+        </div>
+        <div class="row">
+
+            <div class="col-sm-3"></div>
+
+            <div class="col-md-12">
+                <div class="text text-center">
+                    <br><br>
+                        <div class="mastermind">
+                            <p>Masterminds behind this project:</p>
+                        </div>
+                        <div class="mastermind-credits">
+                            <p>Albin</p>
+                            <p>Bength</p>
+                            <p>Elliot</p>
+                            <p>Erik</p>
+                            <p>Lukas</p>
+                            <p>Olle</p>
+                            <p>Shadab</p>                            
+                        </div>
+                    </div>
+                    <br><br><br><br><br>
+                </div>  
+            </div>
+        </div>
+    </div>
+
     <div class="container2">
     
         <div class="section2 text-center">
@@ -203,18 +237,14 @@
             <div class="col-md-12">
                 <div class="text text-center">
                     <br><br>
-                    <p class="mastermind">Masterminds behind this project:</p>
-                        <p>
-                            Albin, Bength, Elliot, Erik, Lukas, Olle and Shadab <br><br>
-                        </p>
-                    <p class="mastermind">We love supporting you. Anyway you choose.</p>
+                    <p class="mastermind">We love supporting you. However you choose.</p>
                     <div class="mastermind-text text-center">
                         <p class="para col-5">Need help to download and get started with the game? Found a bug and want to report it? Or simply want to
                             share some feedback in any form? You are free to choose any communication means to get in touch with us!<br><br>
                             Below is a contact form for you to submit if you want to email us <img src="https://img.icons8.com/color/30/000000/filled-sent.png"/></i><br>
                         </p>
                     </div>
-                        <br><br><br>
+                        <br><br><br><br>
                         <div class="contact-form">
                                 <form id="contact-form" action="https://formsubmit.co/charmkvarkII1305@gmail.com" method="POST">
                                     <input name="Full name" type="text" class="form-control" placeholder="Full name" required>
@@ -225,9 +255,11 @@
                                     <textarea name="Message" type="text" class="form-control" placeholder="Message" required></textarea>
                                     <input type="hidden" name="_next" value="http://localhost/eecs-library/thankyou.php">
                                     <br>
-                                    <input type="submit" class="form-control submit" value="Send message">
+                                    <input id="submit" type="submit" class="form-control submit" value="Send message">
+                                </button>
                                 </form>
                         </div>
+                        <br><br><br><br>
                 </div>
             </div>
 
@@ -248,6 +280,8 @@
             <div class="monster text-center">
                 <img src="img/charmkvark-logo1-blue.png" alt="logo" width="400px">
             </div>
+            <br>
+            <div class="love text-center">Made with <img src="https://img.icons8.com/emoji/30/000000/snowflake-emoji.png"/> in Sweden</div>
             <div class="copyright text-center">
                 <p class="copyright">Copyright © 2021 Charmkvark. All rights reserved.</p>
             </div>
@@ -263,6 +297,12 @@
           $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 50, 'linear');
         });
       });
+    </script>
+
+    <script type="text/javascript">
+        document.getElementById("submit").onclick = function () {
+            location.href = "www.confirmation-page.html";
+        };
     </script>
     
 </body>
