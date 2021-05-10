@@ -391,6 +391,17 @@
     padding-left: 120px;
 }
 
+.container3 .game1 .keypad {
+    padding-top: 370px;
+    padding-left: 120px;
+}
+
+.container3 .game1 .keypad h1 {
+    padding-top: 370px;
+    padding-left: 120px;
+}
+
+
 .container3 .game2 .column-left img {
     padding-top: 380px;
     padding-left: 200px;
@@ -602,6 +613,18 @@ padding-top: 150px;
     background: var(206, 182, 116, 0.774);
     color:  rgba(255, 255, 255, 0.774);
     box-shadow: 0 0 15px rgba(33,33,33,.2); 
+}
+
+.container2 .zoom a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #40b6d3;
+}
+
+.container2 .zoom a:hover {
+    text-decoration: none;
+    color: #222222;
+    text-decoration: underline;
 }
 
    /* End Section3 Area */
