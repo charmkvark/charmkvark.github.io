@@ -657,7 +657,7 @@
 
 .container4 .download-text p {
     color: rgb(214, 214, 214);
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 50px;
 }
 
@@ -678,8 +678,7 @@
 }
 
 .container4 .instructions-text p {
-    padding-top: 30px;
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(214, 214, 214);
     line-height: 30px;
 }
@@ -693,18 +692,18 @@
     display: inline-block;
     padding: 25px 30px;
     margin: 40px;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
     transition: 0.5s;
   }
   
-  .container4 .btns {
+  .container4 .btns-group {
     display: flex;
+    float: left;
+    width: 100%;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
   }
 
   .container4 .green-btn {
