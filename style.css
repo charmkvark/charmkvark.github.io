@@ -391,16 +391,48 @@
     padding-left: 120px;
 }
 
-.container3 .game1 .keypad {
-    padding-top: 370px;
-    padding-left: 120px;
+.container3 .game1 .keypad-title {
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-.container3 .game1 .keypad h1 {
-    padding-top: 370px;
-    padding-left: 120px;
+.container3 .game1 .player-1 {
+    margin-left: 242px;
 }
 
+.container3 .game1 .player-1 .keypad-text-1 p {
+    color: red;
+    padding-left: 7px;
+}
+
+.container3 .game1 .player-1 .keypad-text-2 p {
+    color: red;
+    padding-left: 1px;
+}
+
+.container3 .game1 .player-1 .keypad-text-3 p {
+    color: red;
+    padding-left: 4px;
+}
+
+.container3 .game1 .player-2 {
+    margin-left: 242px;
+}
+
+.container3 .game1 .player-2 .keypad-text-1 p {
+    color: blue;
+    padding-left: 7px;
+}
+
+.container3 .game1 .player-2 .keypad-text-2 p {
+    color: blue;
+    padding-left: 1px;
+}
+
+.container3 .game1 .player-2 .keypad-text-3 p {
+    color: blue;
+    padding-left: 4px;
+}
 
 .container3 .game2 .column-left img {
     padding-top: 380px;
