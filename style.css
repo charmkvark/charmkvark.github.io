@@ -685,6 +685,11 @@
 
 .container4 .instructions-text a {
     text-decoration: none;
+    color: #40b6d3;
+}
+
+.container4 .instructions-text a:hover {
+    color: #358fa5;
 }
 
 .container4 .btns a {
