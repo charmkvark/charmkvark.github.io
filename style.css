@@ -657,8 +657,35 @@
 
 .container4 .download-text p {
     color: rgb(214, 214, 214);
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 50px;
+}
+
+.container4 .instructions-title {
+    display: flex;
+    justify-content: center;
+}
+
+.container4 .instructions-title h1 {
+    color: rgb(214, 214, 214);
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.container4 .instructions-text {
+    display: flex;
+    justify-content: center;
+}
+
+.container4 .instructions-text p {
+    padding-top: 30px;
+    font-size: 15px;
+    color: rgb(214, 214, 214);
+    line-height: 30px;
+}
+
+.container4 .instructions-text a {
+    text-decoration: none;
 }
 
 .container4 .btns a {
@@ -677,9 +704,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
-    flex-direction: row;  
-    padding-bottom: 150px;
+    flex-direction: row;
   }
 
   .container4 .green-btn {
