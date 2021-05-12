@@ -229,7 +229,7 @@
   .banner h2 {
     font-size: 4rem;
     font-weight: 200;
-    font-family: cursive;
+    font-family: 'La Belle Aurore', cursive;
     font-style: italic;
     color: #fff;
     animation: flicker 10000000000s infinite alternate;    
@@ -619,8 +619,8 @@
 .parallax h1 {
     position: relative;
 	text-align: center;
-    font-family: 'Abril Fatface', cursive;
-	font-size: 72px;
+    font-family: 'Bodoni Moda', serif;
+	font-size: 65px;
 	color: #FFF;
 }
 
