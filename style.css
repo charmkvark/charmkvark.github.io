@@ -391,9 +391,9 @@
     line-height: 40px;
 }
 
-.container3 .game1 .column-right img {
+.container3 .game1 .column-right video {
     padding-top: 370px;
-    padding-left: 120px;
+    padding-left: 100px;
 }
 
 .container3 .game1 .keypad-title {
@@ -439,8 +439,8 @@
     padding-left: 4px;
 }
 
-.container3 .game2 .column-left img {
-    padding-top: 380px;
+.container3 .game2 .column-left video {
+    padding-top: 100px;
     padding-left: 200px;
 }
 
