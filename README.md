@@ -1,13 +1,13 @@
 
 
-Guide Zoom Online Play
+Zoom Online Play Guide
 
-This guide will help you set up your online play environment given that one of the players already have
+This guide will help you set up the online play environment given that one of the players already have
 downloaded and installed the game:
 
 Step 1.
 
-Host: start the game and share your screen in the Zoom room
+Host: start the game and share your screen in the Zoom meeting
 
 Step 2.
 
