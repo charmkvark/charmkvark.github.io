@@ -269,6 +269,10 @@
     text-decoration: none;  
   }
 
+  .banner-confirmation-page .link {
+    margin-top: -100px; 
+  }
+
   .banner-confirmation-page .link:hover {
     color: white;
     transition: .4s ease;
