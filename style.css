@@ -740,6 +740,19 @@ background: #ececec;
     padding-top: 150px;
 }
 
+.container5 .kth p {
+    font-size: 20px;
+}
+
+.container5 .kth a {
+    text-decoration: none;
+    color: #40b6d3;
+}
+
+.container5 .kth a:hover {
+    color: #222222;
+}
+
 .container5 .mastermind {
     padding-bottom: 40px;
 }
@@ -758,9 +771,9 @@ background: #ececec;
 }
 
 .section2 h1 {
-color: #222222;
-font-size: 75px;
-padding-top: 150px;
+    color: #222222;
+    font-size: 75px;
+    padding-top: 150px;
 }
 
 .text .mastermind {
